@@ -20,14 +20,17 @@ information:
 | Equipment              | 3-letter codes for plane type(s) generally used on this flight, separated by spaces                         |
 |------------------------+-------------------------------------------------------------------------------------------------------------|
 
-The data is ISO 8859-1 (Latin-1) encoded. The special value \N is used
+
+I'm adding a line of text to this file.
+
+I'm changing a line of the file. The special value \N is used
 for "NULL" to indicate that no value is available, and is understood
 automatically by MySQL if imported.
 
 Notes:
 
     Routes are directional: if an airline operates services from A to B
-    and from B to A, both A-B and B-A are listed separately. Routes
+   
     where one carrier operates both its own and codeshare flights are
     listed only once.
 
