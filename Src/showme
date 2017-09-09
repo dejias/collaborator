@@ -1,9 +1,3 @@
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-<<<<<<< Updated upstream
-echo "Live long and prosper”.
-=======
 sh $DIR/whome
-
-Random edit
->>>>>>> Stashed changes
